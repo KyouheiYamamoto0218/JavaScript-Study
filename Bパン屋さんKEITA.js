@@ -36,21 +36,34 @@ for (let i = index; i < index + actionCount; i++) {
 }
 
 function パンは足りてるか(stocks, counts) {
-    let no = stocks.find((stock, i) => stock < counts[i]);
-    return !no;
+    for (let i = 0; i < stocks.length; i++) {
+        if (stocks[i] < counts[i]) {
+            return false
+        }
+    }
+    return true;
 }
 
 function 合計金額の計算(prices, counts) {
-    let price = counts
-        .map((count, j) => count * prices[j])
-        .reduce((sum, e) => sum + e, 0);
-    return price;
+    let total = 0;
+    for (let i = 0; i < prices.length; i++) {
+        total += prices[i] * counts[i];
+    }
+    return total;
 }
 
 function 配列を引く(array1, array2) {
-    return array1.map((number, i) => number - array2[i]);
+    let newArray = [];
+    for (let i = 0; i < array1.length; i++) {
+        newArray[i] = array1[i] - array2[i];
+    }
+    return newArray;
 }
 
 function 配列を足す(array1, array2) {
-    return array1.map((number, i) => number + array2[i]);
+    let newArray = [];
+    for (let i = 0; i < array1.length; i++) {
+        newArray[i] = array1[i] + array2[i];
+    }
+    return newArray;
 }
