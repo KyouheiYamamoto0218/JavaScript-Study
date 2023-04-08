@@ -10,7 +10,6 @@ let breadCount = items[0];
 let actionCount = items[1];
 let prices = [];
 let stocks = [];
-let aaaa = lines[1];
 
 for (let i = index; i < index + breadCount; i++) {
     let items = lines[i].split(' ').map(str => parseInt(str));
