@@ -10,7 +10,7 @@ console.log(`購入した枚数は ${buy}`);
 let lottery = lines[0].split(" ");  //当選番号　lottery[0]～[5]
 
 for (let i = 0; i < buy; i++) {
-    let count = 0a;
+    let count = 0;
     let buyNumber = (lines[i+2]).split(" ");   //購入くじの番号　buyNumber[0]～[5]
 
     for (let n = 0; n < 6; n++) {
