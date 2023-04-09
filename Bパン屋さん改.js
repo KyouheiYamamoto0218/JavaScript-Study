@@ -24,27 +24,36 @@ for (let i = 0; i < breadKinds; i++) {
 for (let i = 0; i < actionCount; i++) {
     let actionArray = lines[i + breadKinds + 1].split(" ");
 
-    let countArray = [];    //購入するパンの数の配列
+    let countArray = [];    //購入or焼き上げるパンの数の配列
     for (let i = 0; i < actionCount; i++) {
-        let countArray2 = actionArray.slice(1, breadKinds + 1);
-        console.log(countArray2);
+        let countArray2 = actionArray.slice(1, actionArray[i].length);
+        countArray.push(countArray2);
     }
 
+    let actionType = actionArray[0];
+    if (actionType === "buy") {
+        if (stockCheck(???,???)) {
+            for (let j = 0; j < breadKinds; j++) {
+                let total = 0;
+                let price = priceArray[j];
+                let priceCount = actionArray[j + 1]
 
-    // if (stockCheck(???,???)) {
-    //     for (let j = 0; j < breadKinds; j++) {
-    //         let total = 0;
-    //         let price = priceArray[j];
-    //         let priceCount = actionArray[j + 1]
-    //     }
-    // }
+                total += countArray[i] * priceCount[i];
+            }
+        } else {
+            console.log(-1);
+        }
+    }　else if (actionType === "bake") {
+        stockArray += countArray;
+    }
+
 }
 
-// function stockCheck(???, ???) {     //パンが足りているかどうかのチェック
-//     for (let i = 0; i < actionCount; i++) {
-//         if (stockArray[i] < actionArray[i + 1]) {
-//             return false;
-//         }
-//     }
-//     return true;
-// }
+function stockCheck(???, ???) {     //パンが足りているかどうかのチェック
+    for (let i = 0; i < actionCount; i++) {
+        if (stockArray[i] < actionArray[i + 1]) {
+            return false;
+        }
+    }
+    return true;
+}
