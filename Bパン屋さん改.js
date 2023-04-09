@@ -21,4 +21,30 @@ for (let i = 0; i < breadKinds; i++) {
     stockArray.push(stockArray1[1]);
 }
 
-let actionArray = lines.slice(breadKinds + 1, breadKinds + actionCount + 1);
+for (let i = 0; i < actionCount; i++) {
+    let actionArray = lines[i + breadKinds + 1].split(" ");
+
+    let countArray = [];    //購入するパンの数の配列
+    for (let i = 0; i < actionCount; i++) {
+        let countArray2 = actionArray.slice(1, breadKinds + 1);
+        console.log(countArray2);
+    }
+
+
+    // if (stockCheck(???,???)) {
+    //     for (let j = 0; j < breadKinds; j++) {
+    //         let total = 0;
+    //         let price = priceArray[j];
+    //         let priceCount = actionArray[j + 1]
+    //     }
+    // }
+}
+
+// function stockCheck(???, ???) {     //パンが足りているかどうかのチェック
+//     for (let i = 0; i < actionCount; i++) {
+//         if (stockArray[i] < actionArray[i + 1]) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }

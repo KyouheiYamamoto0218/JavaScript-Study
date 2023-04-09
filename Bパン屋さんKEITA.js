@@ -38,7 +38,7 @@ for (let i = index; i < index + actionCount; i++) {
 function パンは足りてるか(stocks, counts) {
     for (let i = 0; i < stocks.length; i++) {
         if (stocks[i] < counts[i]) {
-            return false
+            return false;
         }
     }
     return true;
