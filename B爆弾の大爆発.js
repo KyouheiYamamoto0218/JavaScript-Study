@@ -8,7 +8,7 @@ let fieldArray = lines[0].split(" ");   // 4 4
 let colum = parseInt(fieldArray[0]);    // 4
 let row = parseInt(fieldArray[1]);  // 4
 
-let count = 0;
+let bombNumber = [];
 
     for (let i = 0; i < row; i++) {
         let bombRow = lines[i + 1]; // #.#.
@@ -16,9 +16,9 @@ let count = 0;
         for (let j = 0; j < row; j++) {
             let bombCheck = bombRow[j];
             if (bombCheck === "#") {
-                count += 1;
+                bombNumber.push(i + " " + j);
             }
         }
     }
 
-console.log(count);
+console.log(bombNumber);
