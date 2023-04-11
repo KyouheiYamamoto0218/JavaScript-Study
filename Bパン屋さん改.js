@@ -48,7 +48,7 @@ for (let i = 0; i < actionCount; i++) {
 
 function stockCheck(???, ???) {     //パンが足りているかどうかのチェック
     for (let i = 0; i < actionCount; i++) {
-        if (stockArray[i] < actionArray[i + 1]) {
+        if (stockArray[i] < countArray[i]) {
             return false;
         }
     }
