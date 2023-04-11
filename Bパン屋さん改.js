@@ -27,7 +27,7 @@ for (let i = 0; i < actionCount; i++) {
 
     let actionType = actionArray[0];
     if (actionType === "buy") {
-        if (stockCheck(???,???)) {
+        if (stockCheck(stockArray, countArray)) {
             let totalPrice = 0;
 
             for (let j = 0; j < breadKinds; j++) {
@@ -46,11 +46,14 @@ for (let i = 0; i < actionCount; i++) {
     }
 }
 
-function stockCheck(???, ???) {     //パンが足りているかどうかのチェック
-    for (let i = 0; i < actionCount; i++) {
-        if (stockArray[i] < countArray[i]) {
+function stockCheck(stockArray, countArray) {     //パンが足りているかどうかのチェック
+    for (let i = 0; i < stockArray.length; i++) {
+        let stockCheck = parseInt(stockArray[i]);
+        let countCheck = parseInt(countArray[i]);
+        if (stockCheck < countCheck) {
             return false;
+        } else {
+            return true;
         }
     }
-    return true;
 }
