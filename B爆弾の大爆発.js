@@ -27,3 +27,4 @@ for (let i = 0; i < bombNumber.length; i++); {
     let bombR = bombCR[1];
     console.log("bombC" + "bombR")
 }
+
