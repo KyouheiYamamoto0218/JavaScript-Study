@@ -8,23 +8,17 @@ let fieldArray = lines[0].split(" ");   // 4 4
 let colum = parseInt(fieldArray[0]);    // 4
 let row = parseInt(fieldArray[1]);  // 4
 
-let columBombcheck = lines.slice(1, colum + 1);
+let count = 0;
 
-let columArray = ["#"];
-let rowArray = [];
+    for (let i = 0; i < row; i++) {
+        let bombRow = lines[i + 1]; // #.#.
 
-for (let c = 0; c < colum; c++) {
-    for (let r = 0; r < row; r++) {
-
-        if (フィールドが"#"の時) {
-            rowArray.push("#");
-        } else if (フィールドが"."の時) {
-            rowArray.push(".");
+        for (let j = 0; j < row; j++) {
+            let bombCheck = bombRow[j];
+            if (bombCheck === "#") {
+                count += 1;
+            }
         }
-
     }
-}
 
-let countColum = (columArray.match(/#/g) || []).length;
-let countRow = (rowArray.match(/･/g) || []).length;
-console.log(countColum + countRow);
+console.log(count);
