@@ -21,10 +21,18 @@ for (let i = 0; i < colum; i++) {
     }
 }
 
-for (let i = 0; i < bombNumber.length; i++); {
-    let bombCR = bombNumber[i].split(" ");  //0 , 0
-    let bombC = bombCR[0];
-    let bombR = bombCR[1];
-    console.log("bombC" + "bombR")
+let bombColum = [];
+for (let i = 0; i < colum; i++) {
+    bombColum.push("･");
+}
+
+for (let i = 0; i < colom; i++) {
+    for (let j = 0; j < row; j++) {
+        let bombCR = bombNumber[i].split(" ");  //0 , 0
+        let bombC = bombCR[0];
+        let bombR = bombCR[1];
+
+
+    }
 }
 

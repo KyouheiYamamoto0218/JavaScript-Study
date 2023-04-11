@@ -1,24 +1,8 @@
-//　関数に条件を代入するやり方　true or false
+let colum = 4;
 
-function testkeisan(x, y, z) {
-    let keisan = x + y >= z;
-    return keisan;
+let bombColum = [];
+for (let i = 0; i < colum; i++) {
+    bombColum.push("･");
 }
 
-if (testkeisan(2, 3, 4)) {
-    console.log("true");
-} else {
-    console.log("false");
-}
-
-if (testkeisan(1, 6, 10)) {
-    console.log("true");
-} else {
-    console.log("false");
-}
-
-if (testkeisan(5, 11, 17)) {
-    console.log("true");
-} else {
-    console.log("false");
-}
+console.log(bombColum);
