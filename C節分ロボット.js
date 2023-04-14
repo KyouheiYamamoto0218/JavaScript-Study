@@ -2,7 +2,7 @@ require = require("fshook")(__filename);
 
 let lines = require("fs")
     .readFileSync("/dev/stdin", "utf8")
-    .split("\r\n");
+    .split("\n");
 
 let peopleCount = parseInt(lines[0]);
 let peopleAge = lines.slice(1, peopleCount + 1).map(str => parseInt(str));   //配列を数値に変換

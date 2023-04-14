@@ -2,7 +2,7 @@ require = require("fshook")(__filename);
 
 let lines = require("fs")
     .readFileSync("/dev/stdin", "utf8")
-    .split("\r\n");
+    .split("\n");
 
 let movieDate = lines[0].split(" ");
 let seat = parseInt(movieDate[0]);

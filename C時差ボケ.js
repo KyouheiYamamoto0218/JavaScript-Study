@@ -2,7 +2,7 @@ require = require("fshook")(__filename);
 
 let lines = require("fs")
     .readFileSync("/dev/stdin", "utf8")
-    .split("\r\n");
+    .split("\n");
 
 let days = parseInt(lines[0]);    //console.log(days)
 let max = (0);

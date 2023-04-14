@@ -2,7 +2,7 @@ require = require("fshook")(__filename);
 
 let lines = require("fs")
     .readFileSync("/dev/stdin", "utf8")
-    .split("\r\n")
+    .split("\n")
     .map(num => parseInt(num));
 
 let dislike = lines[0];

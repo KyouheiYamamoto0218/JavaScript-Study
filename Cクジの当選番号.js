@@ -2,7 +2,7 @@ require = require("fshook")(__filename);
 
 let lines = require("fs")
     .readFileSync("/dev/stdin", "utf8")
-    .split("\r\n");
+    .split("\n");
 
 let buy = parseInt(lines[1]);
 console.log(`購入した枚数は ${buy}`);

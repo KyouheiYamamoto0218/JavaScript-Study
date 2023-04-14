@@ -2,7 +2,7 @@ require = require("fshook")(__filename);
 
 let lines = require("fs")
     .readFileSync("/dev/stdin", "utf8")
-    .split("\r\n");
+    .split("\n");
 
 let people = parseInt(lines[0]);    //人の数
 let ballArray = lines.slice(1, people + 1).map(str => parseInt(str));   //配列を数値に変換

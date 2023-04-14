@@ -2,7 +2,7 @@ require = require("fshook")(__filename);
 
 let lines = require("fs")
     .readFileSync("/dev/stdin", "utf8")
-    .split("\r\n");
+    .split("\n");
 
 let firstA = lines[0].split(" ");       //一回戦目Aブロック------------------
 // console.log(firstA[0]);

@@ -3,7 +3,7 @@ require = require("fshook")(__filename);
 //下のdev/stdinからnになる値を読み込んでいる（一行限定）
 let lines = require("fs")
     .readFileSync("/dev/stdin", "utf8")
-    .split("\r\n")
+    .split("\n")
 
 // if文による条件分岐
 let number = lines[0];

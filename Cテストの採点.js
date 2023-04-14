@@ -2,7 +2,7 @@ require = require("fshook")(__filename);
 
 let lines = require("fs")
     .readFileSync("/dev/stdin", "utf8")
-    .split("\r\n")
+    .split("\n")
 
 let people_passingScore = lines[0].split(" ");
 let people = parseInt(people_passingScore[0]);

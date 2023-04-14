@@ -2,7 +2,7 @@ require = require("fshook")(__filename);
 
 let lines = require("fs")
     .readFileSync("/dev/stdin", "utf8")
-    .split("\r\n");
+    .split("\n");
 
 let line1Items = lines[0].split(" ");
 let bakeryKinds = parseInt(line1Items[0]);
