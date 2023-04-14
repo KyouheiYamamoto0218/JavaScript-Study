@@ -52,8 +52,7 @@ function stockCheck(stockArray, countArray) {     //パンが足りているか�
         let countCheck = parseInt(countArray[i]);
         if (stockCheck < countCheck) {
             return false;
-        } else {
-            return true;
         }
     }
+    return true;
 }
