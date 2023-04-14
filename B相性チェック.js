@@ -71,6 +71,8 @@ for (let i = 0; i < number - 1; i++) {
 }
 let patternB = (testArray2[0]);
 
+//-----------------------------------------
+
 if (patternA > patternB) {
     console.log(patternA);
 } else {
