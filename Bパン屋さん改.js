@@ -15,7 +15,7 @@ for (let i = 0; i < breadKinds; i++) {
     priceArray.push(priceArray1[0]);
 }
 
-let stockArray = [];    //パンのストックの配列 2 , 3
+let stockArray = [].map(str => parseInt(str));    //パンのストックの配列 2 , 3
 for (let i = 0; i < breadKinds; i++) {
     let stockArray1 = breadDetailArray[i].split(" ");
     stockArray.push(stockArray1[1]);
@@ -23,7 +23,7 @@ for (let i = 0; i < breadKinds; i++) {
 
 for (let i = 0; i < actionCount; i++) {
     let actionArray = lines[i + breadKinds + 1].split(" "); //buy , 1 , 2
-    let countArray = actionArray.slice(1, actionArray.length);  //1 , 2
+    let countArray = actionArray.slice(1, actionArray.length).map(str => parseInt(str));;  //1 , 2
 
     let actionType = actionArray[0];
     if (actionType === "buy") {
