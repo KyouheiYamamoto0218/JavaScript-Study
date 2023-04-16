@@ -7,7 +7,6 @@ let lines = require("fs")
 let fieldArray = lines[0].split(" ");   // 4 4
 let colum = parseInt(fieldArray[0]);    // 4
 let row = parseInt(fieldArray[1]);  // 4
-
 let bombNumber = [];    //0 0 , 0 2 , 2 2
 
 for (let i = 0; i < colum; i++) {
@@ -26,9 +25,9 @@ for (let i = 0; i < colum; i++) {
     bombColum.push("･");
 }
 
-for (let i = 0; i < colom; i++) {
+for (let i = 0; i < colum; i++) {
     for (let j = 0; j < row; j++) {
-        let bombCR = bombNumber[i].split(" ");  //0 , 0
+        let bombCR = bombNumber[j].split(" ");  //0 , 0
         let bombC = bombCR[0];
         let bombR = bombCR[1];
 
