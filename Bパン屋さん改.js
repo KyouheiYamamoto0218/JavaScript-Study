@@ -31,9 +31,9 @@ for (let i = 0; i < actionCount; i++) {
             let totalPrice = 0;
 
             for (let j = 0; j < breadKinds; j++) {
-
                 let price = priceArray[j] * countArray[j];
                 totalPrice += price;
+                stockArray[j] -= countArray[j];
             }
             console.log(totalPrice);
         } else {
