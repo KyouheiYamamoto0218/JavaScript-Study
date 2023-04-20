@@ -28,6 +28,7 @@ for (let i = 0; i < row; i++) {
     }
     bombColumRow.push(bombColum);
 }
+
 //bombNumber [ '0 0', '0 2', '2 2' ]
 for (let i = 0; i < bombNumber.length; i++) {
     let bombCR = bombNumber[i].split(" ");  //0 , 0
@@ -39,10 +40,9 @@ for (let i = 0; i < bombNumber.length; i++) {
         changeArray[j] = "#";
     }
 
-    for (let k = 0; k < colum; k++) {
-        let changeArray2 = bombColumRow[k];
-        let change = changeArray2[bombR];
-        change = "#";
+    for (let j = 0; j < colum; j++) {
+        let changeArray2 = bombColumRow[j];
+        changeArray2[bombR] = "#";
     }
 }
 
@@ -50,3 +50,4 @@ console.log(bombColumRow[0]);
 console.log(bombColumRow[1]);
 console.log(bombColumRow[2]);
 console.log(bombColumRow[3]);
+
