@@ -50,4 +50,3 @@ console.log(bombColumRow[0]);
 console.log(bombColumRow[1]);
 console.log(bombColumRow[2]);
 console.log(bombColumRow[3]);
-
