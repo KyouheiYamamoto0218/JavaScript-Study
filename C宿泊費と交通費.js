@@ -23,8 +23,8 @@ for (let i = 0; i < intern; i++) {
 for (let i = 0; i < intern - 1; i++) {
     let countDay1 = array[i + 1];
     let countDay2 = array[i + 2];
-    i += 1;
-    intern += 1;
+    i += 1; //ここなんか他にやり方ない？
+    intern += 1; //ここなんか他にやり方ない？
     let dayday = countDay2 - countDay1;
 
     if (train * 2 < hotel * dayday) {
