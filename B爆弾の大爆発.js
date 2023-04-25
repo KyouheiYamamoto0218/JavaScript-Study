@@ -21,9 +21,9 @@ for (let i = 0; i < row; i++) {
 }
 
 let bombColumRow = [];
-for (let i = 0; i < colum; i++) {
+for (let i = 0; i < row; i++) {
     let bombColum = [];
-    for (let j = 0; j < row; j++) {
+    for (let j = 0; j < colum; j++) {
         bombColum.push("･");
     }
     bombColumRow.push(bombColum);
