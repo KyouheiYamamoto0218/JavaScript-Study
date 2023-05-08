@@ -66,6 +66,4 @@ for (let i = 0; i , i < nearPoint.length; i++) {
     }
 }
 // console.log(finalArray);
-
-
 finalArray.forEach(finalArray => console.log(finalArray));
