@@ -19,9 +19,3 @@ for (let i = 0; i < field; i++) {
     }
 }
 console.log(array);
-
-for (let i = 0; i < jumpCount; i++) {
-    for (let rabbitNumber = 1; rabbitNumber < rabbitCount + 1; rabbitNumber++) {
-        for ()
-    }
-}
