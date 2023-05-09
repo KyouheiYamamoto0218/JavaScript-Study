@@ -47,8 +47,7 @@ for (let i = 0; i < map; i++) {
             under = 0;
         } else {
             let underArray = lines[i + 2].split(" ");
-            let underPoint = parseInt(underArray[j]);
-            under = underPoint;
+            under = parseInt(underArray[j]);
         }
         if (checkNumber > under) {
             clearPoint += 1;
@@ -60,4 +59,5 @@ for (let i = 0; i < map; i++) {
     }
 }
 
-console.log(sanchou);
+sanchou = sanchou.sort((a, b) => b - a);    //昇順に並び替え　大きい数の順番に
+sanchou.forEach(sanchou => console.log(sanchou));
