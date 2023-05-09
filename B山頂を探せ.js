@@ -33,7 +33,7 @@ for (let i = 0; i < map; i++) {
             clearPoint += 1;
         }
 
-        let top = lines[i];
+        let top = lines[i].split(" ");
         let top2 = parseInt(top[j]);
         if (i === 0) {
             top2 = 0;
@@ -46,15 +46,15 @@ for (let i = 0; i < map; i++) {
         if (i + 1 === map) {
             under = 0;
         } else {
-            let under2 = lines[i + 2].split(" ");
-            let under3 = parseInt(under2[j]);
-            under = under3;
+            let underArray = lines[i + 2].split(" ");
+            let underPoint = parseInt(underArray[j]);
+            under = underPoint;
         }
         if (checkNumber > under) {
             clearPoint += 1;
         }
 
-        if (clearPoint > 3) {
+        if (clearPoint === 4) {
             sanchou.push(checkNumber);
         }
     }
