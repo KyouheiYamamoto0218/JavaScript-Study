@@ -8,12 +8,12 @@ let index = lines[0].split(" ");
 let column = parseInt(index[0]);
 let row = parseInt(index[1]);
 let saveNumber = parseInt(index[2]);
-let currentLocation = [1,2];
+let currentLocation = [];
 let saveArray = [];
 
 for (let i = 0; i < column; i++) {
     let saveColumn = lines[i + 1];
-        for (let j = 0; j < row; j++) {
+    for (let j = 0; j < row; j++) {
         if (saveColumn[j] === "N") {
             currentLocation[0] = i + 1;
             currentLocation[1] = j + 1;
