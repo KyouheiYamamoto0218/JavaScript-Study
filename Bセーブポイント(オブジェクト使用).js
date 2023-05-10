@@ -28,8 +28,8 @@ for (let y = 0; y < rowCount; y++) {
         }
     }
 }
-// console.log(currentLocation);
-// console.log(saveArray);
+console.log(currentLocation);
+console.log(saveArray);
 
 let min = 9999;
 let results = [];
