@@ -5,27 +5,41 @@ let lines = require("fs")
     .split("\r\n");
 
 let index = lines[0].split(" ");
-let bush = parseInt(index[0]);
-let ravitCount = parseInt(index[1]);
+let bushCount = parseInt(index[0]);
+let rabbitCount = parseInt(index[1]);
 let actionCount = parseInt(index[2]);
 
-let array = [];　　// [1,2]
-for (let i = 0; i < ravitCount; i++) {
+let rabbitPositions = [];　　// [1,2]
+for (let i = 0; i < rabbitCount; i++) {
     let position = parseInt(lines[i + 1]);
-    array.push(position);
+    rabbitPositions.push(position);
 }
 
 for (let i = 0; i < actionCount; i++) {
-    for (let j = 0; j < ravitCount; j++) {
-        let firstMove = parseInt(lines[j + 1]);
-        let nextMove = parseInt(lines[j + 2]);
+    for (let j = 0; j < rabbitCount; j++) {
+        let position = rabbitPositions[j];
 
-        for (let k = 1; k < bush + 1; k++) {
-            if (firstMove + 1 !== nextMove) {
-                firstMove += firstMove + 1;
-            } else if (firstMove + k === nextMove) {
-                firstMove += 1;
-            }
-        }
+        rabbitPositions[j] = movePosition(position, rabbitPositions, bushCount);
     }
+}
+
+for (let i = 0; i < rabbitPositions.length; i++) {
+    console.log(rabbitPositions[i]);
+}
+
+function movePosition(position, rabbitPositions, bushCount) {
+    position = nextBush(position, bushCount);
+    while (rabbitPositions.includes(position)) {
+        position = nextBush(position, bushCount);
+    }
+    return position;
+}
+
+function nextBush(position, bushCount) {
+    if (position >= bushCount) {
+        position = 1;
+    } else {
+        position += 1;
+    }
+    return position;
 }
