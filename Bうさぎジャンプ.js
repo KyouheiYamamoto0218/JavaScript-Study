@@ -4,7 +4,28 @@ let lines = require("fs")
     .readFileSync("/dev/stdin", "utf8")
     .split("\r\n");
 
-うさぎが2匹なら2個の配列
-1匹目が1番目の茂み
-2匹目が3番目の茂み
-[1,3]
+let index = lines[0].split(" ");
+let bush = parseInt(index[0]);
+let ravitCount = parseInt(index[1]);
+let actionCount = parseInt(index[2]);
+
+let array = [];　　// [1,2]
+for (let i = 0; i < ravitCount; i++) {
+    let position = parseInt(lines[i + 1]);
+    array.push(position);
+}
+
+for (let i = 0; i < actionCount; i++) {
+    for (let j = 0; j < ravitCount; j++) {
+        let firstMove = parseInt(lines[j + 1]);
+        let nextMove = parseInt(lines[j + 2]);
+
+        for (let k = 1; k < bush + 1; k++) {
+            if (firstMove + 1 !== nextMove) {
+                firstMove += firstMove + 1;
+            } else if (firstMove + k === nextMove) {
+                firstMove += 1;
+            }
+        }
+    }
+}
