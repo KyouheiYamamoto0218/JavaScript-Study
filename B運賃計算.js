@@ -7,16 +7,14 @@ let lines = require("fs")
 let index = lines[0].split(" ");
 let yyy = parseInt(index[0]);
 let xxx = parseInt(index[1]);
-let pliceList = {};
+let pliceList = [];
 
 for (let y = 1; y < yyy + 1; y++) {
-    for (let x = 1; x < xxx + 1; x++) {
-        let plice = {};
+            let plice = {};
         plice.y = y;
-        plice.plice = lines[y].split(" ");
+        plice.plice = lines[y].split(" ").map(str => parseInt(str));
 
         pliceList.push(plice);
-    }
 }
-
 console.log(pliceList);
+
