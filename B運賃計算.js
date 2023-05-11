@@ -10,7 +10,7 @@ let xxx = parseInt(index[1]);
 let pliceList = [];
 
 for (let y = 1; y < yyy + 1; y++) {
-            let plice = {};
+        let plice = {};
         plice.y = y;
         plice.plice = lines[y].split(" ").map(str => parseInt(str));
 

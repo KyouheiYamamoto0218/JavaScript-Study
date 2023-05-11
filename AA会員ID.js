@@ -4,25 +4,31 @@ let lines = require("fs")
     .readFileSync("/dev/stdin", "utf8")
     .split("\r\n");
 
-let menber = parseInt(lines[0]);
-let menberInfo = [];
+let member = parseInt(lines[0]);
+let memberObject = {};
 
-for (let i = 0; i < menber; i++) {
-    let menberIndex = lines[i + 1].split(" ");
-    let menberObject = {};
-    menberObject.id = menberIndex[0];
-    menberObject.name = menberIndex[1];
-
-    menberInfo.push(menberObject);
+for (let i = 0; i < member; i++) {
+    let index = lines[i + 1].split(" ");
+    let id = index[0];
+    let name = index[1];
+    memberObject[id] = name;
 }
-// console.log(menberInfo);
+// console.log(memberObject);
+console.log(memberObject["3333"]);  //指定したオブジェクトを出力　対応するオブジェクトを出力
 
-for (let i = 0; i < menber; i++) {
-    let outputId = lines[menber + 1];
-    let checkIdArray = lines[i + 1].split(" ");
-    let checkId = checkIdArray[0];
 
-    if (outputId === checkId) {
-        console.log(checkIdArray[1]);
-    }
-}
+// オブジェクト作成パターン1
+// object['x'] = 1
+// object['y'] = 2
+// {x: 1,y: 2}
+//
+// オブジェクト作成パターン2
+// let object = {};
+// object.y = y;
+// object.x = x;
+//
+// オブジェクト作成パターン3
+// let object = {
+//     y: y,
+//     x: x,
+// };
