@@ -13,7 +13,7 @@ for (let i = 0; i < member; i++) {
     let name = index[1];
     memberObject[id] = name;
 }
-// console.log(memberObject);
+console.log(memberObject);
 console.log(memberObject["3333"]);  //指定したオブジェクトを出力　対応するオブジェクトを出力
 
 
