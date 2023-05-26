@@ -4,6 +4,7 @@ let lines = require("fs")
     .readFileSync("/dev/stdin", "utf8")
     .split("\n");
 
+
 let map = parseInt(lines[0]);
 let sanchou = [];
 
