@@ -18,5 +18,5 @@ for (let i = 1; i < times+1; i++) {
     } else if (point >= pay) {
         point = point - pay;
     }
-    console.log([money, point].join(" "));
+    console.log([money, point].join(" "));       //配列を文字列にして返す
 }
