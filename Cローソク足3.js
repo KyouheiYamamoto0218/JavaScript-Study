@@ -5,39 +5,50 @@ let lines = require("fs")
     .split("\n");
 
 let days = parseInt(lines[0]);
-
 let kabukaList = lines.slice(1, 1 + days)
-    .map(line => lintToKabuka(line));
+    .map(line => lineToKabuka(line));
 
-let result = [];
-
-// 始値
-result.push(kabukaList[0].start);
-
-// 終値
-result.push(kabukaList[kabukaList.length - 1].end);
-
-let max = Number.NEGATIVE_INFINITY;
-let min = Number.POSITIVE_INFINITY;
-
-kabukaList.forEach(kabuka => {
-    if (kabuka.high > max) {
-        max = kabuka.high;
-    }
-    if (kabuka.low < min) {
-        min = kabuka.low
-    }
-});
-
-// 高値
-result.push(max);
-
-// 安値
-result.push(min);
-
+let result = getKabukaResult(kabukaList);
 console.log(result.join(' '));
 
-function lintToKabuka(line) {
+function getKabukaResult(kabukaList) {
+    return [
+        getStart(kabukaList),
+        getEnd(kabukaList),
+        getMax(kabukaList),
+        getMin(kabukaList),
+    ];
+}
+
+function getStart(kabukaList) {
+    return kabukaList[0].start;
+}
+
+function getEnd(kabukaList) {
+    return kabukaList[kabukaList.length - 1].end;
+}
+
+function getMax(kabukaList) {
+    let max = Number.NEGATIVE_INFINITY;
+    kabukaList.forEach(kabuka => {
+        if (kabuka.high > max) {
+            max = kabuka.high;
+        }
+    });
+    return max;
+}
+
+function getMin(kabukaList) {
+    let min = Number.POSITIVE_INFINITY;
+    kabukaList.forEach(kabuka => {
+        if (kabuka.low < min) {
+            min = kabuka.low
+        }
+    });
+    return min;
+}
+
+function lineToKabuka(line) {
     let numbers = line.split(' ')
         .map(item => parseInt(item));
     return {
