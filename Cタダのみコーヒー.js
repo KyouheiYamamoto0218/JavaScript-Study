@@ -10,10 +10,10 @@ let off = parseInt(index[1]);
 
 let pay = 0;
 
-for (let i = 0; i < Infinity; i++) {
+while (true) {　　//forの無限ループバージョン　無限LOOP
     pay += coffeePrice;
     coffeePrice = coffeePrice * ((100-off) / 100);
-    coffeePrice = parseInt(coffeePrice);
+    coffeePrice = Math.floor(coffeePrice);　　//小数点以下を切り捨て
     if (coffeePrice === 0) {
         break;
     }
