@@ -8,6 +8,8 @@ let days = parseInt(lines[0]);
 let kabukaList = lines.slice(1, 1 + days)
     .map(line => lineToKabuka(line));
 
+console.log(kabukaList);
+
 let result = getKabukaResult(kabukaList);
 console.log(result.join(' '));
 
@@ -23,13 +25,12 @@ function getKabukaResult(kabukaList) {
 function getStart(kabukaList) {
     return kabukaList[0].start;
 }
-
 function getEnd(kabukaList) {
     return kabukaList[kabukaList.length - 1].end;
 }
 
 function getMax(kabukaList) {
-    let max = Number.NEGATIVE_INFINITY;
+    let max = Number.NEGATIVE_INFINITY;　　//負の無限大を表す値
     kabukaList.forEach(kabuka => {
         if (kabuka.high > max) {
             max = kabuka.high;
@@ -39,7 +40,7 @@ function getMax(kabukaList) {
 }
 
 function getMin(kabukaList) {
-    let min = Number.POSITIVE_INFINITY;
+    let min = Number.POSITIVE_INFINITY;　　//正の無限大を表す値
     kabukaList.forEach(kabuka => {
         if (kabuka.low < min) {
             min = kabuka.low
