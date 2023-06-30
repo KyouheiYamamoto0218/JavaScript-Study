@@ -26,7 +26,8 @@ function filterLogs(logs, check) {
     for (let i = 0; i < logs.length; i++) {
         let word = logs[i];
         if (word.includes(check)){
-            return array.push(words);
+            array.push(word);
         }
     }
+    return array;
 }
