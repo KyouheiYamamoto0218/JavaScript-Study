@@ -8,5 +8,10 @@ let logCount = parseInt(lines[0]);
 let check = lines[1];
 let logs = lines.slice(2, 2 + logCount);
 
-logs.filter(log => log.includes(check))
-    .forEach(log => console.log(log))
+let answer = logs.filter(log => log.includes(check))
+
+if (answer.length > 0) {
+    answer.forEach(log => console.log(log))
+} else {
+    console.log('None')
+}
