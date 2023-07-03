@@ -12,7 +12,7 @@ for (let i = 0; i < number; i++) {
     let q1 = index[0];
     let q2 = index[1];
 
-    if (!check(q1, q2)) {
+    if (!check(q1, q2)) {　　　//!（ビックリマーク）はtrueとfalseを反転させる。　逆に　！
         array.push(i + 1);
     }
 }
