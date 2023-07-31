@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95cea452-3505-4eba-8343-6240b484e380" name="変更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MghrZmvCl3iLcO7ZQuQ08mZzXm" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC2054HPDF/Dropbox/JavaScript-Study&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC2054HPDF\Dropbox\JavaScript-Study" />
+      <recent name="C:\Users\PC2054HPDF\Dropbox\JavaScript-Study\input" />
+      <recent name="C:\Users\kmsya\Dropbox\JavaScript-Study\input" />
+      <recent name="C:\Users\kmsya\Dropbox\JavaScript-Study" />
+      <recent name="C:\Users\kmsya\Dropbox\JavaScript_Study" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kmsya\Dropbox\JavaScript_Study\Cランク" />
+      <recent name="C:\Users\kmsya\Dropbox\JavaScript_Study\input" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="デフォルトタスク">
+      <changelist id="95cea452-3505-4eba-8343-6240b484e380" name="変更" comment="" />
+      <created>1678195331531</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678195331531</updated>
+      <workItem from="1678195332755" duration="6099000" />
+      <workItem from="1678328692714" duration="64000" />
+      <workItem from="1678336204553" duration="504000" />
+      <workItem from="1678366880488" duration="11221000" />
+      <workItem from="1678412134606" duration="9425000" />
+      <workItem from="1678438415390" duration="1578000" />
+      <workItem from="1678441277967" duration="60000" />
+      <workItem from="1678441349693" duration="43000" />
+      <workItem from="1678514550102" duration="3554000" />
+      <workItem from="1678519436744" duration="7000" />
+      <workItem from="1678519573529" duration="3000" />
+      <workItem from="1678522919652" duration="460000" />
+      <workItem from="1678523413857" duration="79000" />
+      <workItem from="1678536905643" duration="7312000" />
+      <workItem from="1678574946734" duration="263000" />
+      <workItem from="1678575272607" duration="247000" />
+      <workItem from="1678609056907" duration="4739000" />
+      <workItem from="1678614443520" duration="1026000" />
+      <workItem from="1678620156491" duration="1694000" />
+      <workItem from="1678701872988" duration="3515000" />
+      <workItem from="1678706352615" duration="429000" />
+      <workItem from="1678714166570" duration="3738000" />
+      <workItem from="1678717970778" duration="7475000" />
+      <workItem from="1678726591254" duration="1036000" />
+      <workItem from="1678797302783" duration="9281000" />
+      <workItem from="1678872375425" duration="5178000" />
+      <workItem from="1678884758917" duration="5262000" />
+      <workItem from="1679148644513" duration="4210000" />
+      <workItem from="1679477221486" duration="4998000" />
+      <workItem from="1679529316313" duration="419000" />
+      <workItem from="1679531773229" duration="15000" />
+      <workItem from="1679533870280" duration="698000" />
+      <workItem from="1679563141073" duration="1844000" />
+      <workItem from="1679661186296" duration="8368000" />
+      <workItem from="1679721664440" duration="1851000" />
+      <workItem from="1679749921309" duration="10094000" />
+      <workItem from="1679906445932" duration="6218000" />
+      <workItem from="1679921121331" duration="3530000" />
+      <workItem from="1680270379189" duration="3829000" />
+      <workItem from="1680442049255" duration="5739000" />
+      <workItem from="1680509814118" duration="3940000" />
+      <workItem from="1680514812972" duration="2210000" />
+      <workItem from="1680680812078" duration="7123000" />
+      <workItem from="1680688421551" duration="23000" />
+      <workItem from="1680699445346" duration="9246000" />
+      <workItem from="1680790947656" duration="1205000" />
+      <workItem from="1680856061954" duration="640000" />
+      <workItem from="1680961507896" duration="789000" />
+      <workItem from="1681024548368" duration="3848000" />
+      <workItem from="1681028858454" duration="1436000" />
+      <workItem from="1681201729468" duration="3808000" />
+      <workItem from="1681217490210" duration="8083000" />
+      <workItem from="1681255608913" duration="51000" />
+      <workItem from="1681354850700" duration="5852000" />
+      <workItem from="1681360860654" duration="1089000" />
+      <workItem from="1681363764454" duration="3086000" />
+      <workItem from="1681480799064" duration="8615000" />
+      <workItem from="1681652026749" duration="5666000" />
+      <workItem from="1681977633237" duration="3347000" />
+      <workItem from="1681996966368" duration="6821000" />
+      <workItem from="1682090154586" duration="4555000" />
+      <workItem from="1682328240779" duration="7377000" />
+      <workItem from="1682346150114" duration="2254000" />
+      <workItem from="1682427178863" duration="5609000" />
+      <workItem from="1682602309590" duration="711000" />
+      <workItem from="1683536194176" duration="3774000" />
+      <workItem from="1683634997499" duration="9897000" />
+      <workItem from="1683675062416" duration="62000" />
+      <workItem from="1683711912035" duration="4332000" />
+      <workItem from="1683723562904" duration="6856000" />
+      <workItem from="1683731496689" duration="11000" />
+      <workItem from="1683784167704" duration="8084000" />
+      <workItem from="1684486819634" duration="635000" />
+      <workItem from="1684487944662" duration="4966000" />
+      <workItem from="1684991351402" duration="9591000" />
+      <workItem from="1685107328063" duration="6487000" />
+      <workItem from="1685596829454" duration="9036000" />
+      <workItem from="1685628212135" duration="2305000" />
+      <workItem from="1685961819303" duration="4026000" />
+      <workItem from="1686404109982" duration="6626000" />
+      <workItem from="1687957253487" duration="1897000" />
+      <workItem from="1688118758880" duration="72000" />
+      <workItem from="1688120036307" duration="5076000" />
+      <workItem from="1688131432871" duration="3838000" />
+      <workItem from="1688247577768" duration="1023000" />
+      <workItem from="1688378389422" duration="2845000" />
+      <workItem from="1688391068592" duration="2543000" />
+      <workItem from="1688465030350" duration="3868000" />
+      <workItem from="1688851600786" duration="3547000" />
+      <workItem from="1689324991655" duration="1015000" />
+    </task>
+    <task id="LOCAL-00043" summary="B爆弾">
+      <created>1682094030779</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1682094030779</updated>
+    </task>
+    <task id="LOCAL-00044" summary="B爆弾">
+      <created>1682346311276</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1682346311276</updated>
+    </task>
+    <task id="LOCAL-00045" summary="B爆弾">
+      <created>1682346682099</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1682346682099</updated>
+    </task>
+    <task id="LOCAL-00046" summary="B爆弾">
+      <created>1682348421901</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1682348421901</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Bぱん">
+      <created>1682429307858</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1682429307858</updated>
+    </task>
+    <task id="LOCAL-00048" summary="B爆弾">
+      <created>1682429939066</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1682429939066</updated>
+    </task>
+    <task id="LOCAL-00049" summary="B爆弾">
+      <created>1682430251300</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1682430251300</updated>
+    </task>
+    <task id="LOCAL-00050" summary="B爆弾">
+      <created>1682432256655</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1682432256656</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Bセーブポイント（クリア）※もっと綺麗に作り直し可？">
+      <created>1683554086501</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1683554086502</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Bセーブポイント（クリア）※もっと綺麗に作り直し可？">
+      <created>1683554110598</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1683554110598</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Bセーブポイント（クリア）※もっと綺麗に作り直し可？">
+      <created>1683554167928</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1683554167928</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Bセーブポイント（クリア）※もっと綺麗に作り直し可？">
+      <created>1683554207434</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1683554207434</updated>
+    </task>
+    <task id="LOCAL-00055" summary="B解像度の向上　新規チャレンジ">
+      <created>1683554425344</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1683554425344</updated>
+    </task>
+    <task id="LOCAL-00056" summary="B山頂を探せ　新規チャレンジ">
+      <created>1683555190271</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1683555190271</updated>
+    </task>
+    <task id="LOCAL-00057" summary="B山頂を探せ　新規チャレンジ">
+      <created>1683559051208</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1683559051208</updated>
+    </task>
+    <task id="LOCAL-00058" summary="B山頂を探せ　80%">
+      <created>1683638203454</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1683638203454</updated>
+    </task>
+    <task id="LOCAL-00059" summary="B山頂を探せ　80%">
+      <created>1683644321627</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1683644321627</updated>
+    </task>
+    <task id="LOCAL-00060" summary="B山頂を探せ　80%">
+      <created>1683644809681</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1683644809681</updated>
+    </task>
+    <task id="LOCAL-00061" summary="B山頂を探せ　80%">
+      <created>1683645245232</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1683645245232</updated>
+    </task>
+    <task id="LOCAL-00062" summary="B山頂を探せ　80%">
+      <created>1683645360897</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1683645360897</updated>
+    </task>
+    <task id="LOCAL-00063" summary="うさぎ">
+      <created>1683723711657</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1683723711657</updated>
+    </task>
+    <task id="LOCAL-00064" summary="運賃計算">
+      <created>1683723735062</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1683723735062</updated>
+    </task>
+    <task id="LOCAL-00065" summary="運賃計算">
+      <created>1683724685188</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1683724685188</updated>
+    </task>
+    <task id="LOCAL-00066" summary="運賃計算">
+      <created>1683727906924</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1683727906924</updated>
+    </task>
+    <task id="LOCAL-00067" summary="運賃計算">
+      <created>1683728651944</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1683728651944</updated>
+    </task>
+    <task id="LOCAL-00068" summary="AA会員ID">
+      <created>1683730194317</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1683730194317</updated>
+    </task>
+    <task id="LOCAL-00069" summary="AA会員ID">
+      <created>1683785762645</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1683785762645</updated>
+    </task>
+    <task id="LOCAL-00070" summary="AA会員ID">
+      <created>1683786870595</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1683786870595</updated>
+    </task>
+    <task id="LOCAL-00071" summary="AA会員ID">
+      <created>1683792432631</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1683792432632</updated>
+    </task>
+    <task id="LOCAL-00072" summary="AA会員ID">
+      <created>1684998549600</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1684998549601</updated>
+    </task>
+    <task id="LOCAL-00073" summary="AA会員ID">
+      <created>1684999670376</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1684999670376</updated>
+    </task>
+    <task id="LOCAL-00074" summary="AA会員ID">
+      <created>1685022430227</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1685022430227</updated>
+    </task>
+    <task id="LOCAL-00075" summary="AA会員ID">
+      <created>1685022750414</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1685022750414</updated>
+    </task>
+    <task id="LOCAL-00076" summary="AA会員ID">
+      <created>1685023696350</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1685023696350</updated>
+    </task>
+    <task id="LOCAL-00077" summary="AA会員ID">
+      <created>1685024222661</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1685024222661</updated>
+    </task>
+    <task id="LOCAL-00078" summary="AA会員ID">
+      <created>1685112835973</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1685112835974</updated>
+    </task>
+    <task id="LOCAL-00079" summary="AA会員ID">
+      <created>1685112981037</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1685112981038</updated>
+    </task>
+    <task id="LOCAL-00080" summary="AA会員ID">
+      <created>1685113167447</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1685113167448</updated>
+    </task>
+    <task id="LOCAL-00081" summary="AA会員ID">
+      <created>1685608119562</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1685608119563</updated>
+    </task>
+    <task id="LOCAL-00082" summary="AA会員ID">
+      <created>1685626905703</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1685626905703</updated>
+    </task>
+    <task id="LOCAL-00083" summary="AA会員ID">
+      <created>1686404271444</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1686404271445</updated>
+    </task>
+    <task id="LOCAL-00084" summary="AA会員ID">
+      <created>1686404344337</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1686404344338</updated>
+    </task>
+    <task id="LOCAL-00085" summary="AA会員ID">
+      <created>1686405079970</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1686405079970</updated>
+    </task>
+    <task id="LOCAL-00086" summary="AA会員ID">
+      <created>1686409490503</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1686409490503</updated>
+    </task>
+    <task id="LOCAL-00087" summary="AA会員ID">
+      <created>1688133590776</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1688133590777</updated>
+    </task>
+    <task id="LOCAL-00088" summary="AA会員ID">
+      <created>1688133606530</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1688133606531</updated>
+    </task>
+    <task id="LOCAL-00089" summary="AA会員ID">
+      <created>1688135158828</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1688135158829</updated>
+    </task>
+    <task id="LOCAL-00090" summary="AA会員ID">
+      <created>1688391099370</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1688391099371</updated>
+    </task>
+    <task id="LOCAL-00091" summary="AA会員ID">
+      <created>1688393648036</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1688393648036</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="test" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="標準入力1に変更" />
+    <MESSAGE value="新規ファイル作成（Bパン屋さん改）" />
+    <MESSAGE value="改を途中まで作成（途中）" />
+    <MESSAGE value="改を途中まで作成2（途中）" />
+    <MESSAGE value="改を途中まで作成3（途中）" />
+    <MESSAGE value="B相性チェック" />
+    <MESSAGE value="object" />
+    <MESSAGE value="B相性チェック（完成）" />
+    <MESSAGE value="Cボールが入る箱（完成）" />
+    <MESSAGE value="B爆弾の大爆発" />
+    <MESSAGE value="Bパン屋さん改" />
+    <MESSAGE value="B相性チェック-関数Ver" />
+    <MESSAGE value="test関数" />
+    <MESSAGE value="C宿泊費と交通費" />
+    <MESSAGE value="Bぱん" />
+    <MESSAGE value="B爆弾" />
+    <MESSAGE value="Bセーブポイント（クリア）※もっと綺麗に作り直し可？" />
+    <MESSAGE value="B解像度の向上　新規チャレンジ" />
+    <MESSAGE value="B山頂を探せ　新規チャレンジ" />
+    <MESSAGE value="B山頂を探せ　80%" />
+    <MESSAGE value="うさぎ" />
+    <MESSAGE value="運賃計算" />
+    <MESSAGE value="AA会員ID" />
+    <option name="LAST_COMMIT_MESSAGE" value="AA会員ID" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C節分ロボット.js</url>
+          <line>33</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Cゲームの画面.js</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C折り紙の貼り合わせ.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Cポイントカード計算.js</url>
+          <line>9</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C安息の地を求めて.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Bパン屋さんKEITA.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Cボールが入る箱.js</url>
+          <line>10</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C宿泊費と交通費.js</url>
+          <line>22</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Bうさぎジャンプ.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/AA会員ID.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C黒電話.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Cローソク足.js</url>
+          <line>26</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Cローソク足3.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Cタダのみコーヒー.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Cお菓子の分配.js</url>
+          <line>13</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Cカードを集める.js</url>
+          <line>46</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C大量出店.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/CRPGでお買い物.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Cカード並べ.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
