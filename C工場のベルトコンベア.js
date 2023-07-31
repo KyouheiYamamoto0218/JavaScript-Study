@@ -4,9 +4,9 @@ let lines = require("fs")
     .readFileSync("/dev/stdin", "utf8")
     .split("\n");
 
-let schedule = lines[1].split(" ");
-let aPartsArray = lines[2].split(" ");
-let bPartsArray = lines[3].split(" ");
+let schedule = lines[1].split("");
+let aPartsArray = lines[2].split("");
+let bPartsArray = lines[3].split("");
 
 let aAnswer = hitCheck(schedule, aPartsArray);
 let bAnswer = hitCheck(schedule, bPartsArray);
