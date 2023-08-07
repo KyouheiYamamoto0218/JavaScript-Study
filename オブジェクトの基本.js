@@ -23,8 +23,32 @@ let lines = require("fs")
     .readFileSync("/dev/stdin", "utf8")
     .split("\n");
 
-class Rect {
-    constructor(width, height) {
+let rect = {
+    width: 5,
+    height: 8,
+    menseki: function() {
+        return this.width * this.height;　　//thisはこのオブジェクト内のものという意味、object内の関数の中でobjectの値を呼び出すために必要。
+    }
+};
+console.log('--------------');
+console.log(rect.width);
+console.log(rect.menseki());　　//関数を持ったオブジェクトの実行方法
+
+//functionを省略した書き方（省略できる）
+let rectrect = {
+    width: 5,
+    height: 8,
+    menseki2() {
+        return this.width * this.height;　　//thisはこのオブジェクト内のものという意味、object内の関数の中でobjectの値を呼び出すために必要。
+    }
+};
+console.log('----------------------------');
+console.log(rectrect.width);
+console.log(rectrect.menseki2());
+
+
+class Rect {　　//classはオブジェクトの雛型
+    constructor(width, height) {　　//constructorはオブジェクトを作ろ時に実行される関数
         this.width = width;
         this.height = height;
     }
@@ -39,15 +63,3 @@ let rect3 = new Rect(4, 8);
 console.log(rect1.menseki());
 console.log(rect2.menseki());
 console.log(rect3.menseki());
-
-
-let rect = {
-    width: 5,
-    height: 8,
-    menseki: function() {
-        return this.width * this.height;　　//thisはこのオブジェクト内のものという意味、object内の関数の中でobjectの値を呼び出すために必要。
-    }
-};
-console.log('--------------');
-console.log(rect.width);
-console.log(rect.menseki());　　//関数を持ったオブジェクトの実行方法
